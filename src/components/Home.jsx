@@ -2,7 +2,7 @@ import axios from "axios";
 import React from "react";
 import { Link } from "react-router-dom";
 import Cards from "./Cards";
-const baseURL = "https://ghibliapi.herokuapp.com/films";
+const baseURL = "https://ghibliapi.herokuapp.com/film";
 
 export default function Home() {
   const [post, setPost] = React.useState(null);
